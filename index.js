@@ -60,12 +60,12 @@ new TypeIt("#type1", {
   loop: true,
   waitUntilVisible: true,
 })
-  .type("A Freelance Team", { delay: 400 })
+  .type("- A Freelance Team", { delay: 400 })
   .pause(500)
-  .delete(16)
-  .type("A Freelance Team")
+  .delete(18)
+  .type("- A Freelance Team")
   .pause(500)
-  .delete(16)
+  .delete(18)
   .go();
 
 // Fix Nav
