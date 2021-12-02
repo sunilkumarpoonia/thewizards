@@ -21,8 +21,8 @@
   --grey2: #494646;
   --white: #fff;
   --customColor: #42caff;
-  --transition-1: all 300ms ease-in-out;
-  --transition-2: all 500ms ease-in-out;
+  --transition-1: all 250ms ease-in-out;
+  --transition-2: all 350ms ease-in-out;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
@@ -223,10 +223,12 @@ img {
   z-index: -1;
 }
 
-.hero-img {
+.wizard-img {
   position: absolute;
-  right: -10%;
-  bottom: -35%;
+  right:0%;
+  bottom:0%;
+  height:70%;
+  width:35%;
   z-index: -1;
 }
 
@@ -238,16 +240,12 @@ img {
     bottom: -40%;
   }
 
-  .hero-img {
-    right: -20%;
-    bottom: -20%;
+  .wizard-img {
+    height:50%;
   }
 }
 
 @media (max-width: 768px) {
-  .hero-img {
-    bottom: -5%;
-  }
   h2{
     font-size: 5vh;
   }
@@ -264,10 +262,8 @@ img {
     bottom: -40%;
   }
 
-  .hero-img {
-    right: -30%;
-    bottom: 0%;
-    width: 60rem;
+  .wizard-img {
+    width: 30rem;
   }
 }
 
@@ -366,7 +362,7 @@ img {
   background-color: var(--purple);
 }
 
-/* Hero */
+/* wizard */
 .header .content {
   position: absolute;
   top: 35%;
@@ -421,7 +417,7 @@ img {
   color: var(--white);
 }
 
-.btn-hero {
+.btn-wizard {
   margin-top: 3rem;
 }
 
@@ -463,7 +459,7 @@ img {
     font-size: 3rem;
   }
 
-  .header .content .btn-hero {
+  .header .content .btn-wizard {
     margin-top: 2rem;
   }
 }
@@ -531,10 +527,6 @@ img {
   .btn-outline {
     margin: 1rem 0 0 0;
   }
-
-  .col-1 img {
-    bottom: -0.5%;
-  }
 }
 
 /* Services */
@@ -545,11 +537,10 @@ img {
 }
 
 .services .row .col {
-  padding: 1.5rem 1rem;
+  padding: 1.2rem 1rem;
   border-radius: 1rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: var(--transition-2);
-  border: 3px solid transparent;
   cursor: pointer;
 }
 
@@ -687,6 +678,25 @@ body.dark .services .row .col:hover .icon {
   .portfolio .projects {
     grid-template-columns: 1fr;
   }
+}
+
+
+/*Team Members*/
+.team img{
+  border-radius: 50%;
+  padding: 0% 20%;
+}
+.team .col{
+  border:2px solid black;
+}
+.team .row h3{
+  margin-bottom: 0%;
+  text-align: center;
+}
+.team .row span{
+  display:block;
+  text-align: center;
+  margin-bottom: 5%;
 }
 
 /* Testimonials */
