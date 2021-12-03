@@ -236,8 +236,8 @@ img {
   .overlay {
     width: 70rem;
     height: 70rem;
-    right: -20%;
-    bottom: -40%;
+    right: 0%;
+    bottom:-40%;
   }
 
   .wizard-img {
@@ -256,10 +256,9 @@ img {
     min-height: 100vh;
   }
   .overlay {
-    width: 55rem;
-    height: 55rem;
+    width: 50rem;
+    height: 50rem;
     right: 0;
-    bottom: -40%;
   }
 
   .wizard-img {
@@ -270,7 +269,7 @@ img {
 /* Social Links */
 .socials {
   position: absolute;
-  bottom: 4%;
+  bottom: 0%;
   left: 6%;
 }
 
@@ -422,13 +421,9 @@ img {
 }
 
 @media (max-width: 768px) {
-  .header .content {
-    top: 25%;
-    left: 5%;
-  }
 
   .header .content span {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .header .content h1 {
     font-size: 4rem;
@@ -445,6 +440,7 @@ img {
 @media (max-width: 567px) {
   .header .content {
     top: 15%;
+    left:8%;
   }
 
   .header .content h1 {
@@ -452,7 +448,7 @@ img {
   }
   .header .content p {
     font-size: 1.5rem;
-    width: 90%;
+    width:100%;
   }
 
   .header .content h1 span {
