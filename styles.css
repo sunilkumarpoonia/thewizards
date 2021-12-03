@@ -241,7 +241,7 @@ img {
   }
 
   .wizard-img {
-    height:50%;
+    height:45%;
   }
 }
 
@@ -262,14 +262,14 @@ img {
   }
 
   .wizard-img {
-    width: 30rem;
+    width: 25rem;
   }
 }
 
 /* Social Links */
 .socials {
   position: absolute;
-  bottom: 0%;
+  bottom: 1%;
   left: 6%;
 }
 
@@ -365,7 +365,7 @@ img {
 .header .content {
   position: absolute;
   top: 35%;
-  left: 6%;
+  left: 5%;
 }
 
 .header .content span {
@@ -706,7 +706,10 @@ body.dark .services .row .col:hover .icon {
 section.testimonials .title {
   text-align: left;
 }
-
+.testimonials img{
+  height:90%;
+  padding:5%;
+}
 .testimonials .swiper-container {
   max-width: 50rem;
 }
@@ -747,12 +750,13 @@ section.testimonials .title {
 
 .swiper-button-next,
 .swiper-button-prev {
-  top: 80%;
+  top: 85%;
+  left: 75%;
+}
+.swiper-button-next{
+  left: 85%;
 }
 
-.swiper-button-prev {
-  left: 80%;
-}
 
 @media (max-width: 996px) {
   .test-center {
