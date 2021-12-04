@@ -11,12 +11,12 @@
   --blueColor-1: #7462e1;
   --blueColor-2: #3641b7;
   --blueColor-3: #42caff;
-  --orange: #f55c25;
+  --orange: #f59425;
   --purple: #ce00ff;
-  --greenColor: #ccffab;
-  --pinkColor: #ff6174;
+  --greenColor: #28b922;
+  --pinkColor: #f363d4;
   --borderColor: #eeefff;
-  --black: #121713;
+  --black: black;
   --grey: #232424;
   --grey2: #494646;
   --white: #fff;
@@ -59,7 +59,7 @@ h2{
 
 a {
   text-decoration: none;
-  color:white;
+  color:black;
 }
 
 i {
@@ -126,7 +126,7 @@ img {
 }
 
 .nav-link:hover {
-  color:black;
+  color:white;
 }
 
 .theme,
@@ -289,7 +289,7 @@ img {
 .control {
   position: fixed;
   right: -4rem;
-  top: 14%;
+  top: 13.5%;
   transition: var(--transition-1);
   z-index: 1000;
 }
@@ -300,7 +300,7 @@ img {
 
 .control .widget {
   position: absolute;
-  left: -3.65rem;
+  left: -3.7rem;
   border-radius: 1rem 0 0 1rem;
   padding: 0.5rem 0.6rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -327,7 +327,7 @@ img {
 
 .control .colors {
   background-color: #fff;
-  padding: 1rem 0.8rem;
+  padding: 1rem 0.7rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -346,13 +346,13 @@ img {
 }
 
 .control .colors span:nth-child(1) {
-  background-color: var(--pinkColor);
-}
-.control .colors span:nth-child(2) {
   background-color: var(--blueColor-3);
 }
+.control .colors span:nth-child(2) {
+  background-color: var(--blueColor-2);
+}
 .control .colors span:nth-child(3) {
-  background-color: var(--blueColor-1);
+  background-color: var(--greenColor);
 }
 .control .colors span:nth-child(4) {
   background-color: var(--orange);
@@ -471,10 +471,6 @@ img {
   text-align: center;
 }
 
-.title span {
-  font-size: 1.4rem;
-}
-
 .title h1 {
   font-size: 4rem;
   color: var(--customColor);
@@ -538,6 +534,9 @@ img {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: var(--transition-2);
   cursor: pointer;
+}
+.services .col{
+  border:1.5px solid black;
 }
 
 body.dark .services .row .col {
@@ -700,7 +699,7 @@ body.dark .services .row .col:hover .icon {
 .test-center {
   display: grid;
   grid-template-columns: 0.8fr 1.3fr;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 section.testimonials .title {
@@ -766,7 +765,7 @@ section.testimonials .title {
 
 @media (max-width: 768px) {
   .testimonials .left img {
-    width: 70%;
+    width: 100%;
   }
 }
 
