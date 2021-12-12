@@ -60,7 +60,7 @@ new TypeIt("#type1", {
   loop: true,
   waitUntilVisible: true,
 })
-  .type("An IT Solutions Company", { delay: 400 })
+  .type("A Complete IT Solutions Company", { delay: 400 })
   .pause(500)
   .delete(16)
   // .type("")
