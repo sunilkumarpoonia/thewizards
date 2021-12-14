@@ -60,12 +60,9 @@ new TypeIt("#type1", {
   loop: true,
   waitUntilVisible: true,
 })
-  .type("A Complete IT Solutions Company", { delay: 400 })
+  .type("A Digital Company", { delay: 400 })
   .pause(500)
-  .delete(16)
-  // .type("")
-  // .pause(500)
-  // .delete(16)
+  .delete(17)
   .go();
 
 // Fix Nav
