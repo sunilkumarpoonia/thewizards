@@ -18,7 +18,7 @@
   --borderColor: #eeefff;
   --black: black;
   --grey: #232424;
-  --grey2: #494646;
+  --grey2:gray;
   --white: #fff;
   --customColor: #42caff;
   --transition-1: all 250ms ease-in-out;
@@ -462,7 +462,7 @@ img {
 
 /* About */
 .section {
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   overflow: hidden;
 }
 
@@ -481,7 +481,7 @@ img {
   position: relative;
   flex: 0 0 40%;
   height: 30rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .col-1 img {
@@ -513,6 +513,13 @@ img {
   .about .about-center {
    display:block;
   }
+  .col-1{
+    height:25rem;
+  }
+  .col-1 img{
+    width:30rem;
+    padding-left: 2.5em;
+  }
 }
 
 @media (max-width: 567px) {
@@ -534,8 +541,6 @@ img {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: var(--transition-2);
   cursor: pointer;
-}
-.services .col{
   border:1.5px solid black;
 }
 
@@ -628,17 +633,28 @@ body.dark .services .row .col:hover .icon {
 .portfolio .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 1.5rem;
   margin-top: 3rem;
 }
 .portfolio .projects .pro-div{
   border:1.5px solid black;
+  background-color: var(--grey2);
 }
-.portfolio .projects img{
-  height:90%;
-  border-bottom: 1.5px solid;
+body.dark .portfolio .projects .pro-div,body.dark .portfolio .projects img {
+  border-color: var(--customColor);
 }
 
+.portfolio .projects img{
+  height:88%;
+  border-bottom: 1.5px solid black;
+}
+.portfolio .projects a{
+  text-align: center;
+  color:white;
+}
+.portfolio .projects a:hover{
+color:var(--customColor);
+}
 .portfolio .projects .item.hide {
   display: none;
 }
