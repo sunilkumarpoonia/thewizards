@@ -859,7 +859,7 @@ section.testimonials .title {
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
   color: white;
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 
 .form h2 {
@@ -917,7 +917,7 @@ section.testimonials .title {
 
 .contact .right {
   background-color: white;
-  padding: 2rem;
+  padding: 2rem 1.5rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
