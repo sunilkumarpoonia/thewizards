@@ -480,7 +480,7 @@ img {
 .col-1 {
   position: relative;
   flex: 0 0 40%;
-  height: 30rem;
+  height: 35rem;
   margin-bottom: 2rem;
 }
 
@@ -514,12 +514,14 @@ img {
    display:block;
   }
   .col-1{
-    height:25rem;
+  margin-bottom: 0%;
+  height:30rem;
   }
   .col-1 img{
-    width:30rem;
-    padding-left: 2.5em;
+    width:100%;
+    padding:0 2rem;
   }
+
 }
 
 @media (max-width: 567px) {
