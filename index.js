@@ -84,7 +84,7 @@ const filterBtn = document.querySelector(".filter-btns");
 const spans = [...document.querySelectorAll(".filter-btns span")];
 const items = [...document.querySelectorAll(".projects .item")];
 
-filterBtn.addEventListener("click", (e) => {
+filterBtn.addEventListener("click", function(e){
   const filter = e.target.closest("span");
   if (!filter) return;
   const id = filter.dataset.id;
