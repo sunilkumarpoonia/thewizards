@@ -103,8 +103,13 @@ img {
 .logo {
   cursor: pointer;
 }
+.logo-img{
+  height:60px;
+  width:60px;
+  margin-right: 0.4rem;
+}
 
-.logo span.color {
+.logo .color {
   background-color: var(--customColor);
   color: white;
   padding: 0.8rem 1rem;
@@ -180,6 +185,10 @@ img {
 
   .logo {
     font-size: 2rem;
+  }
+  .logo-img{
+    height:40px;
+    width:40px;
   }
 
   .nav-item {
