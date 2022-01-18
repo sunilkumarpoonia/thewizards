@@ -71,7 +71,7 @@ img {
 }
 
 .container {
-  max-width: 99.6rem;
+  max-width: 101rem;
   margin: 0 auto;
 }
 
@@ -104,8 +104,8 @@ img {
   cursor: pointer;
 }
 .logo-img{
-  height:60px;
-  width:60px;
+  height:55px;
+  width:55px;
   margin-right: 0.4rem;
 }
 
@@ -471,7 +471,7 @@ img {
 
 /* About */
 .section {
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   overflow: hidden;
 }
 
