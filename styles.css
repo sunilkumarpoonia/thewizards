@@ -111,10 +111,8 @@ img {
 
 .logo .color {
   background-color: var(--customColor);
-  color: white;
-  padding: 0.8rem 1rem;
-  margin-right: 0.7rem;
-  border-radius: 1rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 1.2rem;
   transition: var(--transition-2);
 }
 
@@ -298,7 +296,7 @@ img {
 .control {
   position: fixed;
   right: -4rem;
-  top: 13.5%;
+  top: 15%;
   transition: var(--transition-1);
   z-index: 1000;
 }
@@ -647,25 +645,28 @@ body.dark .services .row .col:hover .icon {
   gap: 1.5rem;
   margin-top: 3rem;
 }
-.portfolio .projects .pro-div{
-  border:1.5px solid black;
-  background-color: var(--grey2);
-}
-body.dark .portfolio .projects .pro-div,body.dark .portfolio .projects img {
-  border-color: var(--customColor);
+.portfolio .projects a{
+  display: block;
 }
 
-.portfolio .projects img{
-  height:88%;
-  border-bottom: 1.5px solid black;
+.portfolio .projects .pro-div{
+  border:2px solid var(--black);
 }
-.portfolio .projects a{
+.portfolio .projects .pro-div:hover{
+  border:2px solid var(--customColor);
+}
+
+.portfolio .projects .pro-div img{
+  height: 100%;
+  border-bottom: 3px dashed var(--customColor);
+}
+.portfolio .projects .pro-div .p-text{
+  margin-top: -0.4rem;
+  padding: 0.2rem 0;
+  background-color: white;
   text-align: center;
-  color:white;
 }
-.portfolio .projects a:hover{
-color:var(--customColor);
-}
+
 .portfolio .projects .item.hide {
   display: none;
 }
