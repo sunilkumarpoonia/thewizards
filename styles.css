@@ -54,7 +54,7 @@ li {
 }
 
 h2{
-  font-size: 6.5vh;
+  font-size: 3.5rem;
 }
 
 a {
@@ -254,7 +254,7 @@ img {
 
 @media (max-width: 768px) {
   h2{
-    font-size: 5vh;
+    font-size: 3.2rem;
   }
 }
 
@@ -296,7 +296,7 @@ img {
 .control {
   position: fixed;
   right: -4rem;
-  top: 15%;
+  top: 25%;
   transition: var(--transition-1);
   z-index: 1000;
 }
@@ -442,6 +442,9 @@ img {
   .header .content .btn {
     padding: 0.8rem 3rem;
   }
+  .socials span:hover i{
+    color:white;
+  }
 }
 
 @media (max-width: 567px) {
@@ -479,6 +482,7 @@ img {
 }
 
 .title h1 {
+  margin-top: 1rem;
   font-size: 4rem;
   color: var(--customColor);
   transition: var(--transition-2);
@@ -493,8 +497,8 @@ img {
 
 .col-1 img {
   position: absolute;
-  transition: var(--transition-2);
   width: 35rem;
+  transition: var(--transition-2);
 }
 
 .col-2 {
@@ -521,12 +525,11 @@ img {
    display:block;
   }
   .col-1{
-  margin-bottom: 0%;
-  height:30rem;
+  margin-bottom: 1rem;
+  height:32rem;
   }
   .col-1 img{
-    width:100%;
-    padding:0 2rem;
+    padding:0.2rem 2rem;
   }
 
 }
@@ -564,10 +567,11 @@ body.dark .services .row .col {
 
 .services .row span {
   font-size: 1.3rem;
-  color: var(--grey2);
+  color: var(--grey);
 }
 
 .services .row h3 {
+  color:var(--black);
   margin: 0.4rem 0 1rem;
 }
 
@@ -577,6 +581,12 @@ body.dark .services .row .col {
   margin-bottom: 1rem;
 }
 
+body.dark .services .row p{
+  color:var(--black);
+}
+.services .row .col:hover p{
+  color: black;
+}
 .services .row .col:hover {
   background-color: var(--customColor);
 }
@@ -586,7 +596,7 @@ body.dark .services .row .col:hover .icon {
 }
 
 .services .row .col:hover .icon,
-.services .row .col:hover p,
+
 .services .row .col:hover h3,
 .services .row .col:hover span {
   transition: var(--transition-2);
@@ -834,7 +844,7 @@ section.testimonials .title {
 
 .blog .col h3 {
   font-size: 2rem;
-  height: 5rem;
+  height: 3rem;
   margin: 0.5rem 0;
 }
 
