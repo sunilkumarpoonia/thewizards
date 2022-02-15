@@ -582,7 +582,7 @@ body.dark .services .row .col {
 }
 
 body.dark .services .row p{
-  color:var(--black);
+  color:#eeefff;
 }
 .services .row .col:hover p{
   color: black;
@@ -770,6 +770,9 @@ section.testimonials .title {
   font-size: 1.5rem;
   color: var(--grey2);
 }
+body.dark .testimonials .right p{
+  color:#eeefff;
+}
 
 .testimonials .right h1 ~ span {
   font-size: 1.5rem;
@@ -794,7 +797,7 @@ section.testimonials .title {
 .swiper-button-next,
 .swiper-button-prev {
   top: 85%;
-  left: 75%;
+  left: 70%;
 }
 .swiper-button-next{
   left: 85%;
@@ -820,19 +823,6 @@ section.testimonials .title {
 
   .testimonials .swiper-container {
     max-width: 33rem;
-  }
-
-  .swiper-button-next,
-  .swiper-button-prev {
-    top: 30%;
-  }
-
-  .swiper-button-prev {
-    left: 55%;
-  }
-
-  .swiper-button-next {
-    right: 60px;
   }
 }
 
