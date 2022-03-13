@@ -242,7 +242,7 @@ img {
 @media (max-width: 996px) {
   .overlay {
     width: 70rem;
-    height: 70rem;
+    height: 60rem;
     right: 0%;
     bottom:-40%;
   }
@@ -263,8 +263,8 @@ img {
     min-height: 100vh;
   }
   .overlay {
-    width: 50rem;
-    height: 50rem;
+    width: 40rem;
+    height: 40rem;
     right: 0;
   }
 
@@ -281,9 +281,33 @@ img {
 }
 
 .socials span {
-  font-size: 3rem;
-  color: var(--grey2);
+  font-size: 3.3rem;
+  color: var(--black);
   cursor: pointer;
+}
+.socials .bxl-linkedin{
+  color:white;
+  background-color: blue;
+  font-size: 3rem;
+}
+.socials .bxl-instagram{
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 3rem;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.socials .bxl-pinterest{
+  color:red;
+}
+
+.socials img{
+  height:20px;
+  width:20px;
 }
 
 .socials span:hover i {
@@ -425,6 +449,7 @@ img {
 
 .btn-wizard {
   margin-top: 3rem;
+  border:2px solid var(--black);
 }
 
 @media (max-width: 768px) {
@@ -831,6 +856,16 @@ body.dark .testimonials .right p{
   border-radius: 1rem;
   height:200px;
 }
+.blog .blog-box{
+  box-shadow: 4px 5px 15px #040d11;
+    padding: 20px 10px;
+    border: 2px solid var(--black);
+    border-radius: 10px;
+}
+.blog .blog-box:hover{
+  box-shadow: 12px 16px 20px var(--customColor);
+  border:2px solid var(--customColor);
+}
 
 .blog .col h3 {
   font-size: 2rem;
@@ -849,7 +884,7 @@ body.dark .testimonials .right p{
   color: white;
   padding: 0.7rem 1.5rem;
   border-radius: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   transition: var(--transition-2);
 }
 
@@ -974,6 +1009,10 @@ body.dark .testimonials .right p{
   opacity: 0.2;
 }
 
+.space{
+  margin-bottom:-90px;
+}
+
 @media (max-width: 768px) {
   .contact-center {
     grid-template-columns: 1fr;
@@ -998,4 +1037,9 @@ footer a{
   color:black;
   background-color: white;
   padding:0.6%;
+}
+.logo-bottom{
+  height: 30px;
+  width:30px;
+  margin-bottom: -10px;
 }
