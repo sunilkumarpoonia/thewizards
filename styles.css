@@ -684,19 +684,17 @@ body.dark .services .row .col:hover .icon {
   display: block;
 }
 
-.portfolio .projects .pro-div{
+/*.portfolio .projects .portfolio-container .pro-div{
   border:2px solid var(--black);
 }
-.portfolio .projects .pro-div:hover{
+.portfolio .projects .portfolio-container:hover{
   border:2px solid var(--customColor);
-}
+}*/
 
 .portfolio .projects .pro-div img{
   height: 100%;
-  border-bottom: 3px dashed var(--customColor);
 }
 .portfolio .projects .pro-div .p-text{
-  margin-top: -0.4rem;
   padding: 0.2rem 0;
   background-color: white;
   text-align: center;
@@ -1045,4 +1043,45 @@ footer a{
   height: 30px;
   width:30px;
   vertical-align: middle;
+}
+
+.portfolio-container{
+  height: 20rem;
+  width: 35rem;
+  overflow: hidden;
+  border: 0.2rem solid #000;
+  
+}
+.portfolio-container:hover{
+  border: 0.2rem solid var(--customColor);
+}
+@keyframes slide-up{
+  from{
+    margin-top: 0;
+  }
+  to{
+    margin-top: -4rem;
+  }
+}
+.portfolio-container .pro-div{
+  height: 100%;
+  transition: margin 0.5s ease-in-out;
+}
+
+.portfolio-container:hover .pro-div{
+  animation: slide-up 0.7s ease-in-out;
+  margin-top: -4rem;
+}
+.portfolio-container .p-text{
+  background: var(--customColor);
+  height: 4rem;
+  width: 100%;
+}
+.portfolio-container .p-text h3{
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 4rem;
 }
